@@ -23,6 +23,8 @@ minusGb.addEventListener('click', function (){
     gb = gb - 1
     Gingerbread.textContent = gb;
     totalCookies.textContent = gb + cc + sugar;
+if (gb > 0);
+gb = 1;
 })
 addGb.addEventListener('click', function(){
     console.log('addgb was clicked!');
@@ -45,6 +47,8 @@ minusCc.addEventListener('click', function(){
     console.log(cc);
     Chocolate.textContent = cc;
     totalCookies.textContent = gb + cc + sugar;
+if (cc > 0);
+cc = 1;
 })
 addCc.addEventListener('click', function(){
     console.log('addcc was clicked!');
@@ -68,7 +72,10 @@ minusSugar.addEventListener('click', function(){
     console.log(sugar);
     Sugar.textContent = sugar;
     totalCookies.textContent = gb + cc + sugar;
+if (sugar > 0);
+    sugar = 1;
 })
+
 addSugar.addEventListener('click', function(){
     console.log('addsugar was clicked!');
     sugar = sugar + 1
